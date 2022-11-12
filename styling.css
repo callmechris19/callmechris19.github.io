@@ -1,0 +1,26 @@
+.do
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+body
+{
+    background-color: bisque;
+    font-family: verdana;
+}
+
+.in, .ac, .gi, .ce 
+{
+background-color: #ffc79d;
+}
+
+#bt, #i
+{
+    width:1000px;
+}
+
+#cn, #inst
+{
+    width:500px;
+}
