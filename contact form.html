@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            CONTACT FORM
+        </title>
+        <link href="projectstyling.css" rel="stylesheet">
+    </head>
+    <header>
+        <div id="dv"><hr id="hr">
+            <center><img src="bannerp.jpg" alt="Banner" width="150px"></center>
+            <hr id="hr">
+           </div>
+    </header>
+    <nav id="nv">
+        <a href="Individualproject.html"><b>HOME</b></a>&nbsp; &nbsp; <a href="Availaibleproperties.html"><b>PROPERTIES</b></a>&nbsp; &nbsp; <a href="contact form.html"><b>CONTACT US</b></a> &nbsp; &nbsp;
+        <a href="mapandcredits.html"><b>MAP AND CREDITS</b></a>
+      </nav>
+      <hr>
+    <body id="bd4">
+        <br>
+        <center><h2><u><b>CHRIS ESTATE FORM </b></u></h2></center>
+        <p class="pf"> <b><i>The clients, below is a form/questionnaire that will help you 
+            decide what's the best property or help you find your preference and save it. </i></b></p>
+            <br>
+            <form action="mailto:ngomosergechristian@gmail.com">
+        <fieldset>
+            
+            <label for="fn">Enter your first name : </label>
+            <input type="text" id="fn" name="firstname"><br>
+            <br>
+            <label for="ln">Enter your last name : </label>
+            <input type="text" id="ln" name="lastname"><br>
+            <br>
+            <label for="tel">Telephone number : </label>
+            <input type="tel" id="tel" name="telnum" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            <br>
+            <label for="mail">Enter your mail : </label>
+            <input type="email" id="mail" name="mail"><br>
+            <br>
+            <p>- Which type of property do you prefer:</p>
+            <label for="hs">House</label>
+            <input type="radio" id="hs" name="prefered property" value="house"> &nbsp;
+            <label for="cd">Condominium</label>
+            <input type="radio" id="cd" name="prefered property" value="condo"> &nbsp;
+            <label for="app">Appartment</label>
+            <input type="radio" id="app" name="prefered property" value="appartment"> &nbsp;<br>
+            <br>
+            <label for="bdrm">- How many bedrooms do you want :</label>
+            <input type="number" id="bdrm" name="bedromms" value="0" min="0" max="5" step="1"><br>
+            <br>
+            <label for="btrm">- How many bathrooms do you want :</label>
+            <input list="btrm" name="bathrooms" required><br>
+            <datalist id="btrm">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </datalist>
+            <br>
+
+             <label for="pr">- Enter your price range from (300k-999k($)) :</label> 
+             <input type="range" id="pr" name="price" min="300000" max="980000"><br>
+             <br>
+             <p>- Enter your comments below in the space provided: </p> &nbsp;
+             <textarea name="comments" cols="100" rows="10"></textarea><br>
+             <br>
+             <input type="submit" value="SUBMIT">
+
+             
+        </fieldset>
+        
+    </body>
+    <footer>
+        <div id="dv">
+        <hr id=hr>
+        copyright&copy;CHRIS ESTATE
+        </div>
+    </footer>
+</html>

@@ -1,0 +1,78 @@
+#bd, #bd1, #bd2, #bd3, #bd4, #bd5{
+    background-image:url(bkgdi.png);
+    font-family:verdana;
+    
+}
+#tb{
+    width:90%;
+    border-radius: 10px;
+    border-style: solid black;
+    
+}
+th, td{
+border-radius:10px;
+padding:10px;
+}
+td{
+    padding-left:30px;
+}
+tr:hover {background-color: #D6EEEE;}
+
+#hr{
+    border-style: solid black;
+    border-width:5px;
+}
+
+#dv{
+    background-color:coral;
+}
+
+.pf{
+    text-align: center;
+}
+
+#fn, #ln, #mail{
+    width:350px;
+}
+
+#nv:hover {
+ background-color: cadetblue;
+  width:40%  
+}
+#nv{
+    background-color: white;
+}
+
+#dvp{
+    float:right;
+    margin-top:-250px;
+}
+
+#dt{
+    color:coral;
+}
+
+#dvv{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.st a{
+    padding:10px;
+    display:block;
+    margin-top:5px;
+    width:97%;
+    background-color:blanchedalmond;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
+  
